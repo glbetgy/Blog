@@ -47,14 +47,14 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 	</bean>
 	
 	<!-- 配置RegisterAction -->
-	<bean id="registerAction" class="com.sanqing.action.Register" scope="prototype">
+	<bean id="registerAction" class="com.wy.action.Register" scope="prototype">
 		<property name="userService">
 			<ref bean="userService"/>
 		</property>
 	</bean>
 	
 	<!-- 配置LoginAction -->
-	<bean id="loginAction" class="com.sanqing.action.Login" scope="prototype">
+	<bean id="loginAction" class="com.wy.action.Login" scope="prototype">
 		<property name="userService">
 			<ref bean="userService"/>
 		</property>

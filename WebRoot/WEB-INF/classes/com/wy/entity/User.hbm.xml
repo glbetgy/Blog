@@ -7,8 +7,6 @@
 		<id name="username">
 			<generator class="assigned"></generator>
 		</id>
-		<property name="username"></property>
 		<property name="password"></property>
 	</class>	
 </hibernate-mapping>
-

@@ -24,9 +24,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
            
-           用户名： <input type="text" name="username">
-            密码： <input type="pasword" name="password">
-            <input type="submit" name="登录">
-            <input type="reset" name="重置">
+           用户名： <input type="text" name="username"/>
+            密码： <input type="password" name="password"/>
+            <button type="submit" value="登录">
+            <button type="reset" value="重置">
   </body>
 </html>

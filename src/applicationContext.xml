@@ -11,7 +11,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 			<value>com.mysql.jdbc.Driver</value>
 		</property>
 		<property name="url">
-			<value>jdbc:mysql://localhost/blog</value>
+			<value>Blog:mysql://localhost:3306/blog</value>
 		</property>
 		<property name="username">
 			<value>root</value>

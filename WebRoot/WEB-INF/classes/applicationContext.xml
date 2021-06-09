@@ -11,7 +11,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 			<value>com.mysql.jdbc.Driver</value>
 		</property>
 		<property name="url">
-			<value>Blog:mysql://localhost:3306/blog</value>
+			<value>jdbc:mysql://localhost:3306/blog</value>
 		</property>
 		<property name="username">
 			<value>root</value>
@@ -49,17 +49,16 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 	</bean>
 	
 	<!-- 配置RegisterAction -->
-	<bean id="registerAction" class="com.wy.action.register" scope="prototype">
+	<bean id="register" class="com.wy.action.register" scope="prototype">
 		<property name="userService">
 			<ref bean="userService"/>
 		</property>
 	</bean>
 	
 	<!-- 配置LoginAction -->
-	<bean id="loginAction" class="com.wy.action.login" scope="prototype">
+	<bean id="login" class="com.wy.action.login" scope="prototype">
 		<property name="userService">
 			<ref bean="userService"/>
 		</property>
 	</bean>
-	
-</beans>
+	</beans>

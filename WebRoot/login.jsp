@@ -31,15 +31,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <td colspan=2>登录界面</td>  
             </tr>
             <tr>
-                <td>user:</td>
+                <td>用户名:</td>
                 <td><input type=text name=user size=16></td>
             </tr>
             <tr>
-                <td>pwd:</td>
+                <td>密码:</td>
                 <td><input type=password  name=pwd size=16></td>
             </tr>
             <tr>
-                <td colspan=2><input type=submit value=submit></td>
+                <td colspan=2><input type="submit" value="登录"></td>
             </tr>
         </table>
     </form>
